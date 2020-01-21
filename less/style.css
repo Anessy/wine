@@ -133,6 +133,9 @@ li {
   width: 9rem;
   height: 3rem;
 }
+.detail-min button:hover {
+  background-color: #F1C76F;
+}
 .SlideNumber {
   color: lightgray;
   transform: translate3d(16rem, 0.8rem, 0rem);
@@ -302,4 +305,69 @@ li {
 }
 .coming .name {
   padding: 16rem 0;
+}
+.secondSlider {
+  margin: 6rem 0;
+}
+.secondSlider h4 {
+  margin-bottom: 2rem;
+}
+.secondSlider .text {
+  width: 60%;
+  margin-left: 10rem;
+}
+.secondSlider .control {
+  transform: translateY(-1rem);
+}
+.secondSlider .control .left {
+  margin-left: 14rem;
+}
+.secondSlider .number {
+  margin-left: 12rem;
+  margin-bottom: -1rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+.prize {
+  background-color: #0B0C1A;
+  padding: 8rem 0;
+}
+.prize h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  color: white;
+}
+.prize-name {
+  position: relative;
+  display: inline-block;
+}
+.prize-name:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 5%;
+  width: 20%;
+  height: 2px;
+  margin-left: -5%;
+  background: #F1C76F;
+}
+.prize p {
+  color: white;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+}
+.prize .forImg {
+  margin-top: 2rem;
+}
+.prize .forImg img {
+  width: 60%;
+}
+.prize .iconUp {
+  text-align: right;
+  margin-right: 2rem;
 }
