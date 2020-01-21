@@ -7,6 +7,27 @@ button:focus {
   outline: 0;
   outline-offset: 0;
 }
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/');
+  src: url('../fonts/BebasNeueLight.eot') format('embedded-opentype'), url('../fonts/BebasNeueLight.woff2') format('woff2'), url('../fonts/BebasNeueLight.woff') format('woff'), url('../fonts/BebasNeueLight.ttf') format('truetype'), url('../fonts/BebasNeueLight.svg#BebasNeueLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue Cyrillic';
+  src: url('../fonts/BebasNeueCyrillic.eot');
+  src: url('../fonts/BebasNeueCyrillic.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeueCyrillic.woff2') format('woff2'), url('../fonts/BebasNeueCyrillic.woff') format('woff'), url('../fonts/BebasNeueCyrillic.ttf') format('truetype'), url('../fonts/BebasNeueCyrillic.svg#BebasNeueCyrillic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue Cyrillic';
+  src: url('../fonts/');
+  src: url('../fonts/BebasNeueCyrillic.eot') format('embedded-opentype'), url('../fonts/BebasNeueCyrillic.woff2') format('woff2'), url('../fonts/BebasNeueCyrillic.woff') format('woff'), url('../fonts/BebasNeueCyrillic.ttf') format('truetype'), url('../fonts/BebasNeueCyrillic.svg#BebasNeueCyrillic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 b {
   font-weight: 600;
 }
@@ -377,4 +398,32 @@ li {
 .prize .iconUp {
   text-align: right;
   margin-right: 2rem;
+}
+.attention {
+  text-align: center;
+  padding: 3rem 0;
+}
+.attention p {
+  text-transform: uppercase;
+  font-family: 'Bebas Neue';
+  font-size: 3rem;
+  line-height: 40px;
+}
+footer {
+  background: #F4F4F4;
+  padding: 3rem 0;
+}
+footer .magazine-name img {
+  margin-right: 2rem;
+}
+footer .magazine-contacts img {
+  margin-left: 1rem;
+}
+footer .magazine-contacts p {
+  margin-top: 1rem;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
 }
