@@ -7,6 +7,9 @@ button:focus {
   outline: 0;
   outline-offset: 0;
 }
+b {
+  font-weight: 600;
+}
 .scale {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -87,6 +90,7 @@ header {
   background: #ffffff url(../img/slider/slider-bg.png) 0 65% no-repeat;
   background-size: 100%;
   text-align: center;
+  margin-bottom: 4rem;
 }
 .slider p {
   margin-bottom: 2rem;
@@ -110,8 +114,8 @@ header {
   margin: 2rem 0;
 }
 .np {
-  -webkit-transform: translateY(150%);
-          transform: translateY(150%);
+  -webkit-transform: translateY(180%);
+          transform: translateY(180%);
 }
 li {
   width: 10rem !important;
@@ -120,13 +124,50 @@ li {
   margin-top: 2rem;
   background-color: #F1C76F !important;
 }
-.detail {
+.detail-min {
   border-left: 2px solid #F1C76F;
   border-right: 2px solid #F1C76F;
-  width: 27%;
+  width: 10rem;
 }
-.detail button {
+.detail-min button {
   border: 2px solid #F1C76F;
   background-color: rgba(0, 0, 0, 0);
   padding: 0.5rem 2rem;
+  width: 9rem;
+  height: 3rem;
+}
+.SlideNumber {
+  color: lightgray;
+  -webkit-transform: translate3d(16rem, 0.8rem, 0rem);
+          transform: translate3d(16rem, 0.8rem, 0rem);
+}
+.wish {
+  background: url(../img/wish/photo\ BG.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+}
+.wish .name {
+  text-align: center;
+  padding: 12rem 0;
+}
+.wish .name h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+  padding-bottom: 1.5rem;
+}
+.wish .name p {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.question {
+  background: #000000 url(../img/question/BG1.png) 0 0 no-repeat;
+  padding: 12rem 0;
+}
+.question .photos img {
+  width: 100%;
 }
