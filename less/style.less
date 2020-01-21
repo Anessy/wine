@@ -180,18 +180,165 @@ header {
     }
     
     .question {
-        background: black url(../img/question/BG1.png) 0 0 no-repeat;
-        padding: 12rem 0;
+        background: #030414 url(../img/question/BG1.png) 0 0 no-repeat;
+        padding: 24rem 0rem 8rem 0rem;
         .photos {
             
             img {
-                width: 100%;
+                width: 90%;
             }  
         }
-        .text {
+        h4 {
+            padding: 3rem 0;
+        }
+        &-text {
+            position:relative;
+            display:inline-block;
+            color: white;
+        }
+        &-text:after {
+                content:"";
+                position:absolute;
+                bottom:1px;
+                left:5%;
+                width:12%;
+                height:3px;
+                margin-left:-5%;
+                background:#F1C76F;  
+            }
+            &-unswer {
+                color: rgba(255, 255, 255, 0.651); 
+                padding: 2rem 0;
+                p {
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+            &-person {
+                color: white;
+                img {
+                    margin: 0rem 1rem;
+                    transform: translateY(-0.7rem);
+                    margin-bottom: 3rem;
+                }
+                h6 {
+                    
+                }
+                
+            }
+
+            .question-1 {
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                padding-bottom: 6rem;
+            }
+
+            .question-2 {
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                padding: 6rem 0;
+                .photos {
+                    img {
+                        margin-top: 2rem;
+                    }
+                }
+            }
+
+            .question-3 {
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                padding: 6rem 0;
+                .colon {
+                    width: 20%;
+                    margin-left: 3rem;
+                }
+                .citation {
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 28px;
+                    line-height: 39px;
+                    color: white;
+                    width: 70%;
+                    margin-left: 6rem;
+                    margin-top: 1rem;
+                }
+            }
+
+            .boutle {
+                margin-top: -25rem;
+                transform: translateX(14rem);
+            }
+
+            .question-4 {
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                padding: 0 0 6rem 0;
+                .photos {
+                    margin-top: 12rem;
+                }
+                .colon {
+                    width: 20%;
+                    margin-left: 3rem;
+                    margin-top: 2rem;
+                }
+                .citation {
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 28px;
+                    line-height: 39px;
+                    color: white;
+                    width: 70%;
+                    margin-left: 6rem;
+                    margin-top: 1rem;
+                }
+                .phot {
+                    width: 70%;
+                    margin: 2rem 0 0 2rem;
+                    
+                }
+            }
+            .question-5 {
+                background: #030414 url(../img/question/shutterstock.png) 100% 100% no-repeat; 
+                background-size: 50%;
+                padding-top: 8rem;
+                .colon {
+                    width: 20%;
+                    margin-left: 3rem;
+                    margin-top: 2rem;
+                }
+                .citation {
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 28px;
+                    line-height: 39px;
+                    color: white;
+                    width: 70%;
+                    margin-left: 6rem;
+                    margin-top: 1rem;
+                }
+
+            }
+    }
+
+    .coming {
+        background: url(../img/coming/photo\ BG.jpg) center no-repeat;
+        background-size: cover;
+        h1 {
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            color: white;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
             
         }
-        
+        .name {
+            padding: 16rem 0;
+        }
     }
 
     
