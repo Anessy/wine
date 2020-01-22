@@ -133,7 +133,7 @@ header {
   margin: 2rem 0;
 }
 .np {
-  transform: translateY(180%);
+  transform: translateY(130%);
 }
 li {
   width: 10rem !important;
@@ -260,7 +260,7 @@ li {
 }
 .question .boutle {
   margin-top: -25rem;
-  transform: translateX(14rem);
+  margin-left: 16rem;
 }
 .question .question-4 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -336,16 +336,16 @@ li {
 .secondSlider .text {
   width: 60%;
   margin-left: 10rem;
-}
-.secondSlider .control {
-  transform: translateY(-1rem);
+  margin-bottom: 3rem;
 }
 .secondSlider .control .left {
-  margin-left: 14rem;
+  margin-top: 4rem;
+}
+.secondSlider .control .right {
+  margin-top: 4rem;
 }
 .secondSlider .number {
-  margin-left: 12rem;
-  margin-bottom: -1rem;
+  transform: translate3d(-0.6rem, 2.5rem, 0rem);
   color: rgba(0, 0, 0, 0.3);
 }
 .prize {
@@ -419,4 +419,50 @@ footer .magazine-contacts p {
   font-weight: 300;
   font-size: 16px;
   line-height: 18px;
+}
+footer .magazine-contacts img:hover {
+  border-bottom: 2px solid #fab520;
+  border-radius: 50%;
+}
+@media (max-width: 992.99px) {
+  .boutle {
+    display: none;
+  }
+  .colon {
+    margin-left: 1rem !important;
+  }
+  .citation {
+    margin-left: 2rem !important;
+    width: 90% !important;
+  }
+}
+@media (max-width: 768.99px) {
+  .secondSlider .text {
+    width: 60%;
+    margin-left: 7rem;
+  }
+  .question {
+    padding: 10rem 0rem 8rem 0rem !important;
+  }
+}
+@media (max-width: 576.99px) {
+  .secondSlider .text {
+    width: 80%;
+    margin-left: 4rem;
+  }
+  .question {
+    padding: 10rem 0rem 8rem 0rem !important;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo a {
+    margin-top: 10rem;
+  }
+  .secondSlider .control {
+    transform: translateX(40%);
+  }
+  .prize-name {
+    margin-bottom: 2rem;
+  }
 }
